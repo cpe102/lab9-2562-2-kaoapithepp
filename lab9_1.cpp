@@ -4,7 +4,7 @@ using namespace std;
 
 int main(){
 	string grade;
-	int count[5] = {}; //Declare array count for counting A,B,C,D,F and initialize all element = 0
+	int count[6] = {}; //Declare array count for counting A,B,C,D,F and initialize all element = 0
 	count[5] = 0;
 	cout << "Please input grade of each student (A-F) or input 0 to exit." << endl;
 	do{
